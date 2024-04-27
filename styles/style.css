@@ -1,0 +1,137 @@
+h1{
+    font-weight: bold;
+}
+
+h2{
+    font-weight: bold;
+}
+li{
+    margin: 10px 0px;
+}
+form{
+    text-align: center;
+    padding: 50px 0px;
+}
+.to-do{
+    color: red;
+    font-weight: bold;
+    display:block;
+    padding: 5px;
+    border: 1px solid red;
+    border-radius:100px;
+    
+    text-align: center;
+}
+
+.completed{
+    color: green;
+    font-weight: bold;
+    display:block;
+    padding: 5px;
+    border: 1px solid green;
+    border-radius:100px;
+    text-align: center;
+}
+
+#list-container{
+    text-align: center;
+    margin: 0px;
+}
+
+#finished-container{
+    text-align: center;
+    margin: 0px;
+}
+
+/*------------------------------------------------------------- TABLET SIZE STYLING -------------------------------------------------------*/
+@media (min-width:801px){ 
+    li{
+        margin: 10px 0px;
+    }
+    form{
+        text-align: center;
+        padding: 50px 0px;
+    }
+    .to-do{
+        color: red;
+        font-weight: bold;
+        display:block;
+        padding: 5px;
+        border: 1px solid red;
+        border-radius:100px;
+        text-align: center;
+    }
+    
+    
+    .completed{
+        color: green;
+        font-weight: bold;
+        display:block;
+        padding: 5px;
+        border: 1px solid green;
+        border-radius:100px;
+        text-align: center;
+    }
+    
+    #list-container{
+        text-align: center;
+        margin: 0px;
+        padding: 0px 100px;
+    }
+    
+    #finished-container{
+        text-align: center;
+        margin: 0px;
+        padding: 0px 100px;
+    }
+
+}
+
+
+
+
+
+
+/*------------------------------------------------------------- MOBILE SIZE STYLING -------------------------------------------------------*/
+@media (min-width:320px){
+    li{
+        margin: 10px 0px;
+    }
+    form{
+        text-align: center;
+        padding: 50px 0px;
+    }
+
+    .to-do{
+        color: red;
+        font-weight: bold;
+        display:block;
+        padding: 5px;
+        border: 1px solid red;
+        border-radius:100px;
+        text-align: center;
+    }
+    
+    
+    .completed{
+        color: green;
+        font-weight: bold;
+        display:block;
+        padding: 5px;
+        border: 1px solid green;
+        border-radius:100px;
+        text-align: center;
+    }
+    
+    #list-container{
+        text-align: center;
+        margin: 0px;
+        padding: 0px 50px;
+    }
+    
+    #finished-container{
+        text-align: center;
+        margin: 0px;
+        padding: 0px 50px;
+    }
+}
